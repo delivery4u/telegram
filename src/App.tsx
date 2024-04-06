@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='App'>
       <div className='Container'>
-      <img src="/admin.png"></img>
+      <img src="/admin.png" width="250" height="250"></img>
         <TonConnectButton />
 
         <div className='Card'>
