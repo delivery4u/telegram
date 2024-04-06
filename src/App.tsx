@@ -19,7 +19,7 @@ function App() {
         </div>
 
         <div className='Card'>
-          <b>Counter Value</b>
+          <b>Kamil's account value:</b>
           <div>{value ?? 'Loading...'}</div>
         </div>
 
