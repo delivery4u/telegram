@@ -3,8 +3,6 @@ import { TonConnectButton } from '@tonconnect/ui-react';
 import { useTonConnect } from './hooks/useTonConnect';
 import { useCounterContract } from './hooks/useCounterContract';
 import '@twa-dev/sdk';
-import imgUrl from '../public/images/admin.png'
-document.getElementById('hero-img').src = imgUrl
 
 function App() {
   const { connected } = useTonConnect();
@@ -13,6 +11,7 @@ function App() {
   return (
     <div className='App'>
       <div className='Container'>
+      <img src="/circle.svg">
         <TonConnectButton />
 
         <div className='Card'>
